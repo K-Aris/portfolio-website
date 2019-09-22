@@ -112,7 +112,7 @@ nav
 
 .hero-cta {
   /* border: 1px solid blue;  */
-  width: 50%; 
+  width: 55%; 
   font-size: 5rem;
   position: absolute;
   left: 10%;
@@ -159,3 +159,53 @@ nav {
   color: #F156A8;
   font-weight: bolder; 
 }
+
+
+
+/*Contact US PAGE */
+
+.contact {
+  position: absolute; 
+  top: 5%; 
+  left: 25%; 
+  width: 52%;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0);
+  padding: 20px;
+  margin: 3%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid white;
+  border-radius: 10px 0px;
+  box-sizing: border-box;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  resize: vertical;
+  outline: transparent;
+  background-color: rgba(194, 194, 194, 0.233); 
+}
+
+input[type=submit] {
+  
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0px 10px;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(0, 0, 0, 0.664);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out
+    
+}
+
