@@ -166,7 +166,7 @@ nav {
 
 .contact {
   position: absolute; 
-  top: 5%; 
+  top: 10%; 
   left: 25%; 
   width: 52%;
 }
@@ -208,4 +208,22 @@ input[type=submit]:hover {
   transition-timing-function: ease-in-out
     
 }
+
+/*Disclaimer*/ 
+
+.disclaimer {
+  border: 1px solid white; 
+  position: absolute; 
+  width: 80%; 
+  top: 15%; 
+  left: 6%; 
+  background-color: rgba(204, 204, 204, 0.548); 
+  padding: 3%; 
+}
+
+.disclaimer li a{
+  text-decoration: none; 
+  color: black;
+}
+
 
